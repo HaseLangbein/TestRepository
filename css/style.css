@@ -148,29 +148,27 @@ Primary use: Multipurpose Template
    ============================== */
 
 
+
 .ME {
-    background:#e42575 !important;
-    color: white !important;
+    background:#e42575 ;
+    color: white ;
 }
 
 
 .DC {
-    background:#5865f2 !important;
-    color: white !important;
+    background:#5865f2;
+    color: white ;
 }
 .TW {
-    background:#1d9bf0 !important;
-    color: white !important;
+    background:#1d9bf0 ;
+    color: white ;
 }
 
-/*
-h2 {font-family: Odibee Sans; font-size: 55px;}
-*/
+.BTTN img {max-height: 90px;}
 
+a.BTTN {padding: 0px !important;}
 
-
-
-
+a.BTTN:hover {transform: scale(1.05);}
 
 :root{
     scroll-behavior: auto;
@@ -305,6 +303,20 @@ img:not([draggable]), embed, object, video{
     max-width: 1318px;
     padding: 0 30px;
 }
+
+
+
+
+
+.BTTN
+
+
+
+
+
+
+
+
 
 
 /* ==============================
@@ -6323,4 +6335,15 @@ table.shopping-cart-table tr td{
     display: inline-block;
     -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
+}
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .BTTN img {max-height: 60px;}
+
 }
