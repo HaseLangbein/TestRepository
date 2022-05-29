@@ -97,6 +97,18 @@ Primary use: Multipurpose Template
    * Font HK Grotesk
    */
 
+
+   @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald:wght@300;400;500;700&display=swap');
+
+   
+@font-face {
+    font-family: 'NalukaRegular';
+    src: url("..\webfonts\NalukaRegular.otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
     font-family: 'HK_Grotesk';
     src: url('../webfonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
@@ -146,10 +158,14 @@ Primary use: Multipurpose Template
     background:#5865f2 !important;
     color: white !important;
 }
+.TW {
+    background:#1d9bf0 !important;
+    color: white !important;
+}
 
-
-
-
+/*
+h2 {font-family: Odibee Sans; font-size: 55px;}
+*/
 
 
 
@@ -406,7 +422,7 @@ img:not([draggable]), embed, object, video{
 
 body{
     color: #111;
-    font-family: var(--font-global);
+    font-family: Oswald;
     font-size: 18px;
     font-weight: 400; /*500*/ 
     letter-spacing: -0.00208em;
