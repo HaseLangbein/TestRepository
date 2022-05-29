@@ -134,6 +134,28 @@ Primary use: Multipurpose Template
 /* ==============================
    Common styles
    ============================== */
+
+
+.ME {
+    background:#e42575 !important;
+    color: white !important;
+}
+
+
+.DC {
+    background:#5865f2 !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
 :root{
     scroll-behavior: auto;
     --font-global: HK_Grotesk, arial, sans-serif;
@@ -2479,11 +2501,18 @@ a.logo:hover{
     background-color: #1b1b1b !important;
 }
 .bg-dark.light-content{
+    background-color: #051d1d !important;
+}
+.bg-dark-lighter.light-content{
+    background-color: #0f493b !important;
+}
+/*
+.bg-dark.light-content{
     background-color: #1b1b1b !important;
 }
 .bg-dark-lighter.light-content{
     background-color: #232323 !important;
-}
+}*/
 .bg-dark,
 .bg-dark-lighter,
 .bg-dark-alfa-30,
@@ -3523,13 +3552,13 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(250,250,250, 0);
+    background: rgba(255, 255, 255, 0);
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     
 }
 .work-item:hover .work-img:after{    
-    background: rgba(20,20,20, .85);
+    background: rgba(20, 20, 20, 0);
 }
 
 .works-grid.hover-white .work-item:hover .work-intro,
