@@ -154,6 +154,7 @@ Primary use: Multipurpose Template
     color: white ;
 }
 
+.mobile-picture {display: none !important;}
 
 .DC {
     background:#5865f2;

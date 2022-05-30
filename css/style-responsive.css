@@ -154,7 +154,7 @@
         
     }
     .page-section, .home-section, .small-section{
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     
     .owl-pagination{
@@ -182,6 +182,9 @@
   
 @media only screen and (max-width: 992px) {
     
+    .mobile-picture {display: block !important;}
+
+
     .split-background{
         width: 32%;
     }    
@@ -367,6 +370,12 @@
 
 @media only screen and (max-width: 767px) {
     
+
+    body {text-align: center;}
+
+    .col-sm-6 {text-align: left;}
+  
+
     .nav-logo-wrap .logo{
         max-width: 150px;
     }    
@@ -690,7 +699,7 @@
         font-size: 28px;
     }
     .hs-line-7{
-        font-size: 32px;
+        font-size: 60px;
         line-height: 1.1;
     }
     .hs-line-8{
@@ -932,7 +941,7 @@
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 /*
@@ -968,6 +977,23 @@
     }
     
 }
+
+
+
+@media only screen and (min-width: 480px) {
+
+    .mobilegallery {display: none !important;}
+
+}
+@media only screen and (max-width: 480px) {
+
+    .desktopgallery {display: none;}
+
+}
+
+
+
+
 
 /* ==============================
    Internet Explorer Fix
